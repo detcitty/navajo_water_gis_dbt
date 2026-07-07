@@ -1,19 +1,12 @@
-dutch_railway_network:
+navajo_water_wells:
 
   outputs:
     dev:
       type: duckdb
-      path: data/dutch_railway_network.duckdb
+      path: raw_data/navajo_water_wells.duckdb
       extensions:
         - spatial
         - httpfs
         - postgres
       threads: 1
-      attach:
-        - path: 'https://blobs.duckdb.org/nl-railway/train_stations_and_services.duckdb'
-          type: duckdb
-          alias: external_db
-        - path: "postgresql://postgres:{{ env_var('DBT_DUCKDB_PG_PWD') }}@localhost:5466/postgres"
-          type: postgres
-          alias: postgres_db
   target: dev
