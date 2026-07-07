@@ -1,8 +1,8 @@
-name: 'navajo_watergis'
+name: 'navajo_water_wells'
 version: '1.0.0'
 config-version: 2
 
-profile: 'navajo_watergis'
+profile: 'navajo_water_wells'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
