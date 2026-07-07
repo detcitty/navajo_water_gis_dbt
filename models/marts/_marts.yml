@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: dim_wells
+    description: One row per monitoring well; stable dimension for joins.
+    columns:
+      - name: well_id
+        tests: [unique, not_null]
+      - name: chapter_name
+        tests:
+          - relationships:
+              to: ref('chapter_boundaries')
+              field: chapter_name
+
+  - name: fct_groundwater_levels
+    description: One row per well per reading date. Feeds time series charts.
+    columns:
+      - name: well_id
+        tests: [not_null]
+      - name: reading_date
+        tests: [not_null]
+
+  - name: mart_regional_supply_risk
+    description: >
+      One row per Navajo Nation chapter, summarizing groundwater decline
+      trends and water quality exceedances, with a Low/Moderate/High
+      supply risk tier assigned to each chapter.
+    columns:
+      - name: chapter_name
+        tests: [unique, not_null]
+      - name: supply_risk_tier
+        tests:
+          - accepted_values:
+              values: ['Low', 'Moderate', 'High']

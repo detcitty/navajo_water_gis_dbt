@@ -1,0 +1,6 @@
+Manifest file for edi.517.2.zip created on Sat Jul 04 02:32:21 UTC 2026
+wells.csv (686999 bytes)
+analytes.csv (12578186 bytes)
+edi.517.2.xml (39451 bytes)
+edi.517.2.txt (22161 bytes)
+edi.517.2.report.xml (51031 bytes)

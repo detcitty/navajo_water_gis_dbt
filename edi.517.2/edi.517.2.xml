@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.517.2" system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow><principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal><permission>all</permission></allow><allow>
+      <principal>uid=dbeene,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/061a105b3ebb79d9e4d53192f070b97f</alternateIdentifier><title>Unregulated Wells on the Navajo Nation Data Compilation</title>
+    <creator>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <givenName>H</givenName>
+        <surName>Hoover</surName>
+      </individualName>
+      <organizationName>Montana State University Billings</organizationName>
+      <electronicMailAddress>joseph.hoover@msubillings.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-2566-8042</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Shuey</surName>
+      </individualName>
+      <organizationName>Southwest Research and Information Center</organizationName>
+      <electronicMailAddress>sric.chris@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Grant</givenName>
+        <surName>Hettleman</surName>
+      </individualName>
+      <organizationName>Northern Arizona University</organizationName>
+      <electronicMailAddress>gbh23@nau.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <surName>Beene</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>darbeene@salud.unm.edu</electronicMailAddress>
+      <userId
+      directory="https://orcid.org">https://orcid.org/0000-0003-1286-5514</userId>
+    </creator>
+    <pubDate>2022-03-15</pubDate>
+    <abstract>
+      <para>In the United States the use of unregulated water sources – defined as sources that do
+        not meet criteria to be classified as a public water system as defined by the Safe Drinking
+        Water Act - are used regularly for livestock watering, agriculture, domestic, and other
+        purposes. Nationally, more than 45 million people rely on unregulated water sources for
+        drinking water; however, there remains infrastructure disparities for drinking water access
+        in communities on Tribal nations. For the Navajo Nation, a sovereign Indigenous nation in
+        the Southwestern United States, between 7% and 30% of homes lack plumbing to deliver
+        household drinking water, so residents are compelled to access other water sources –
+        regulated and unregulated alike. Previous unregulated water quality studies on the Navajo
+        Nation were regionally focused and unsuitable for evaluating water quality trends across the
+        Navajo Nation, an area that encompasses more than 71,000 square kilometers in Arizona, New
+        Mexico, and Utah. Therefore, beginning in 2011 the Community Environmental Health Program at
+        the University of New Mexico began to compile existing water quality datasets, principally
+        for unregulated groundwater sources, in a single geospatial relational database. </para>
+      <para>Researchers at the University of New Mexico Center for Native Environmental Health
+        Equity Research, University of New Mexico METALS Superfund Research Program, University of
+        Arizona, Northern Arizona University, and the Southwest Research and Information Center have
+        compiled a database of water quality measurements from groundwater wells on the Navajo
+        Nation using data from the U.S. Geological Survey, U.S. Army Corps of Engineers, U.S.
+        Centers for Disease Control and Prevention, Navajo Nation Environmental Protection Agency,
+        and data from researchers at the University of New Mexico, Dine College and Northern Arizona
+        University. To date, this data compilation has been used for publications but has not been
+        disseminated publicly. The purpose of this website is to facilitate access to these compiled
+        water quality data. The application design enables users to view water quality information
+        using statistical and geospatial tools. Our hope is that this information will support
+        individual and community decisions about water use from unregulated sources.</para>
+      <para/>
+    </abstract>
+    <keywordSet>
+      <keyword>water quality</keyword>
+      <keyword>groundwater</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>unregulated wells</keyword>
+      <keyword>metals</keyword>
+      <keyword>Navajo Nation</keyword>
+      <keyword>Tribal lands</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <para>Articles derived from this dataset: </para>
+      <para>Jones, L., Credo, J., Parnell, R., &amp; Ingram, J. C. (2020). Dissolved Uranium and
+        Arsenic in Unregulated Groundwater Sources – Western Navajo Nation. Journal of Contemporary
+        Water Research &amp; Education, 169(1), 27–43.
+        https://doi.org/10.1111/j.1936-704X.2020.03330.x</para>
+      <para>Ingram, J. C., Jones, L., Credo, J., &amp; Rock, T. (2020). Uranium and arsenic
+        unregulated water issues on Navajo lands. Journal of Vacuum Science &amp; Technology A,
+        38(3), 031003. https://doi.org/10.1116/1.5142283</para>
+      <para>Erdei, E., Shuey, C., Pacheco, B., Cajero, M., Lewis, J., &amp; Rubin, R.L. (2019)
+        Elevated autoimmunity in residents living near abandoned uranium mine sites on the Navajo
+        Nation. Journal of Autoimmunity, 99, 15-23.
+        https://doi.org/10.1016/j.jaut.2019.01.006</para>
+      <para>Hoover, J., Coker, E., Barney, Y., Shuey, C., &amp; Lewis, J. (2018). Spatial clustering
+        of metal and metalloid mixtures in unregulated water sources on the Navajo Nation – Arizona,
+        New Mexico, and Utah, USA. Science of The Total Environment, 633, 1667–1678.
+        https://doi.org/10.1016/j.scitotenv.2018.02.288 </para>
+      <para>Hoover, J., Gonzales, M., Shuey, C., Barney, Y., &amp; Lewis, J. (2017). Elevated
+        Arsenic and Uranium Concentrations in Unregulated Water Sources on the Navajo Nation, USA.
+        Exposure and Health, 9(2), 113–124. https://doi.org/10.1007/s12403-016-0226-6 2:17
+        https://doi.org/10.1116/1.5142283</para>
+      <para>Harmon, M. E., Lewis, J., Miller, C., Hoover, J., Ali, A.-M. S., Shuey, C., Cajero, M.,
+        Lucas, S., Zychowski, K., Pacheco, B., Erdei, E., Ramone, S., Nez, T., Gonzales, M., &amp;
+        Campen, M. J. (2017). Residential proximity to abandoned uranium mines and serum
+        inflammatory potential in chronically exposed Navajo communities. Journal of Exposure
+        Science &amp; Environmental Epidemiology, 27(4), 365–371. https://doi.org/10.1038/jes.2016.79 </para>
+      <para>Hoover, J., Gonzales, M., Shuey, C., Barney, Y., &amp; Lewis, J. (2017). Elevated
+        Arsenic and Uranium Concentrations in Unregulated Water Sources on the Navajo Nation, USA.
+        Exposure and Health, 9(2), 113–124. https://doi.org/10.1007/s12403-016-0226-6</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>This data package is released to the “public domain” under Creative Commons CC0 1.0 “No
+        Rights Reserved” (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+        professional etiquette to provide attribution of the original work if this data package is
+        shared in whole or by individual components. A generic citation is provided for this data
+        package on the website https://portal.edirepository.org (herein “website”) in the summary
+        metadata page. Communication (and collaboration) with the creators of this data package is
+        recommended to prevent duplicate research or publication. This data package (and its
+        components) is made available “as is” and with no warranty of accuracy or fitness for use.
+        The creators of this data package and the website shall not be liable for any damages
+        resulting from misinterpretation or misuse of the data package or its components. Periodic
+        updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <distribution
+      id="10.6073/pasta/061a105b3ebb79d9e4d53192f070b97f" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/061a105b3ebb79d9e4d53192f070b97f</url></online></distribution><coverage>
+      <geographicCoverage>
+        <geographicDescription>Navajo Nation, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-107.5</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.35</northBoundingCoordinate>
+          <southBoundingCoordinate>34.96</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1905-05-27</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-06-04</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>R</givenName>
+        <surName>Beene</surName>
+      </individualName>
+      <organizationName>University of New Mexico Community Environmental Health
+        Program</organizationName>
+      <electronicMailAddress>DaRBeene@salud.unm.edu</electronicMailAddress>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl><userId
+          directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>The compiled dataset consists of two primary data tables. The first table is derived
+            from the Navajo Nation Wells Database, consisting of more than 5,000 groundwater well
+            records. The second table includes water quality data from 18 distinct studies collected
+            between 1905 and 2020. The data table includes 845 analytes with the largest number of
+            observations for trace metals, metalloids, radionuclides, and water chemistry
+            parameters. The data presented here represent the publicly available portion of the data
+            compilation. This tool should not be interpreted as a definitive or complete record of
+            all wells and water quality results in the region. In total, the dataset presented here
+            visualized results for 1,101 water sources. </para>
+          <para>Some studies recorded uranium concentrations in units of activity (picocuries per
+            liter), which were converted to mass per unit volume (ug/L) by dividing activity by
+            0.67. If multiple measurements were available per analyte per well, the maximum
+            concentration was determined for radionuclides, metals, and metalloids, and the median
+            concentration was calculated for pH, conductivity, hardness, and other measures of water
+            chemistry. Measurements that are below the instrument limit of detection are recorded in
+            the dataset. Values are imputed as the LOD for visualization purposes. The downloadable
+            dataset records the LOD and may be used with various imputation methods for more
+            rigorous statistical analysis.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>wells.csv</entityName>
+      <entityDescription>wells</entityDescription>
+      <physical>
+        <objectName>wells.csv</objectName>
+        <size
+          unit="bytes">686999</size>
+        <authentication
+              method="MD5">5233844413465c9e55b48872ce2d82b8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+                    function="download">https://pasta.lternet.edu/package/data/eml/edi/517/2/199096fb60bb8c904ba7c832894ea715</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>well_id</attributeName>
+          <attributeDefinition>Unique ID for each well feature. Can be inner-joined with 'well_id' field in analytes.csv.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">2</minimum>
+                  <maximum
+                    exclusive="false">8236</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>well_no</attributeName>
+          <attributeDefinition>Well number maintained by Navajo Nation Department of Water Resources (NNDWR)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Well number maintained by Navajo Nation Department of Water Resources (NNDWR)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>well_name</attributeName>
+          <attributeDefinition>Well name maintained by Navajo Nation Department of Water Resources (NNDWR)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Well name maintained by Navajo Nation Department of Water Resources (NNDWR)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>aka2</attributeName>
+          <attributeDefinition>Colloquial name used by community members</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Colloquial name used by community members</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>aka3</attributeName>
+          <attributeDefinition>Colloquial name used by community members</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Colloquial name used by community members</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>owner</attributeName>
+          <attributeDefinition>Owner or operator of well</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Owner or operator of well</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sdwa_type</attributeName>
+          <attributeDefinition>Type of water system under Safe Drinking Water Act Ammendments of 1996</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>UWS</code>
+                    <definition>unregulated water system</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>REG</code>
+                    <definition>regulated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNK</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>usgs_id</attributeName>
+          <attributeDefinition>US Geologic Survey ID for wells stored in National Water Information System (NWIS)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">-1e+05</minimum>
+                  <maximum
+                    exclusive="false">3.73e+14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pwsid</attributeName>
+          <attributeDefinition>Public water system ID - used if well head is entry point to regulated water distribution system</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Public water system ID - used if well head is entry point to regulated water distribution system</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of well in feet</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">5</minimum>
+                  <maximum
+                    exclusive="false">9803</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>code</attributeName>
+          <attributeDefinition>Alphanumeric code of geologic formation from National Geologic Map Database (Geolex)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alphanumeric code of geologic formation from National Geologic Map Database (Geolex)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>description</attributeName>
+          <attributeDefinition>Long-form description of geologic formation from National Geologic Map Database (Geolex)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Long-form description of geologic formation from National Geologic Map Database (Geolex)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude in decimal degrees (DD) in WGS1984 (SRID: 4328)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegrees</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">-111.7776718</minimum>
+                  <maximum
+                    exclusive="false">-106.8733917</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude in decimal degrees (DD) in WGS1984 (SRID: 4328)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegrees</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">34.09021613</minimum>
+                  <maximum
+          exclusive="false">37.45399768</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5599</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>analytes.csv</entityName>
+      <entityDescription>analytes</entityDescription>
+      <physical>
+        <objectName>analytes.csv</objectName>
+        <size
+          unit="bytes">12578186</size>
+        <authentication
+              method="MD5">de6a8e39bac2083aa0d83d05ff05eef6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+                    function="download">https://pasta.lternet.edu/package/data/eml/edi/517/2/6a9f3e295051be0b8a410510a872e577</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>uid</attributeName>
+          <attributeDefinition>Unique ID for each well feature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">236</minimum>
+                  <maximum
+                    exclusive="false">130360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>well_id</attributeName>
+          <attributeDefinition>Foreign key with wells table column well_no.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">4</minimum>
+                  <maximum
+                    exclusive="false">8389</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sample_id</attributeName>
+          <attributeDefinition>ID for each water sample. Multiple analytes can have same sample ID</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1</minimum>
+                  <maximum
+                    exclusive="false">6320</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>analyte</attributeName>
+          <attributeDefinition>Analyte tested - may be abbreviated using common parlance</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Analyte tested - may be abbreviated using common parlance</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>date_collected</attributeName>
+          <attributeDefinition>Date that sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-MM-YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sampling_entity</attributeName>
+          <attributeDefinition>Research entity who collected and reported the sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Research entity who collected and reported the sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>result</attributeName>
+          <attributeDefinition>Analytical laboratory result</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">-524</minimum>
+                  <maximum
+          exclusive="false">832974.9421</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lessthan_limit_of_detection</attributeName>
+          <attributeDefinition>Binary field denoting if analyte was below limit of detection of laboratory instrumentation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Above limit of detection</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Below limit of detection</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeDefinition>Denotes units of analytical results</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Denotes units of analytical results</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>analysis_date</attributeName>
+          <attributeDefinition>Date that sample was analyzed</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-MM-YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>filtered_sample</attributeName>
+          <attributeDefinition>Binary field denoting if analyte was filtered through 0.2um filter</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Filtered with 0.2 um filter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Filtered with 0.2 um filter</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>analysis_method</attributeName>
+          <attributeDefinition>USGS NWIS method codes (https://help.waterdata.usgs.gov/method_cd)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>USGS NWIS method codes (https://help.waterdata.usgs.gov/method_cd)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>analysis_method_description</attributeName>
+          <attributeDefinition>USGS NWIS method description (https://help.waterdata.usgs.gov/method_cd)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>USGS NWIS method description (https://help.waterdata.usgs.gov/method_cd)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>analysis_lab</attributeName>
+          <attributeDefinition>Laboratory</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Laboratory</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Notes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>information_source</attributeName>
+          <attributeDefinition>Source from which data were collected and compiled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Source from which data were collected and compiled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>64209</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit
+          id="decimalDegrees" multiplierToSI="" name="decimalDegrees"
+          parentSI="" unitType="length">
+          <description>latitude or longitude in geographic coordinates as decimal fractions of a
+            degree</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

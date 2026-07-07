@@ -1,0 +1,842 @@
+
+  
+    uid=EDI,o=EDI,dc=edirepository,dc=orgall
+      uid=dbeene,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/061a105b3ebb79d9e4d53192f070b97fUnregulated Wells on the Navajo Nation Data Compilation
+    
+      Joseph Hoover
+      Montana State University Billings
+      joseph.hoover@msubillings.edu
+      https://orcid.org/0000-0003-2566-8042
+    
+    
+      Chris Shuey
+      Southwest Research and Information Center
+      sric.chris@gmail.com
+    
+    
+      Grant Hettleman
+      Northern Arizona University
+      gbh23@nau.edu
+    
+    
+      Daniel Beene
+      University of New Mexico
+      darbeene@salud.unm.edu
+      https://orcid.org/0000-0003-1286-5514
+    
+    2022-03-15
+    
+      In the United States the use of unregulated water sources – defined as sources that do
+        not meet criteria to be classified as a public water system as defined by the Safe Drinking
+        Water Act - are used regularly for livestock watering, agriculture, domestic, and other
+        purposes. Nationally, more than 45 million people rely on unregulated water sources for
+        drinking water; however, there remains infrastructure disparities for drinking water access
+        in communities on Tribal nations. For the Navajo Nation, a sovereign Indigenous nation in
+        the Southwestern United States, between 7% and 30% of homes lack plumbing to deliver
+        household drinking water, so residents are compelled to access other water sources –
+        regulated and unregulated alike. Previous unregulated water quality studies on the Navajo
+        Nation were regionally focused and unsuitable for evaluating water quality trends across the
+        Navajo Nation, an area that encompasses more than 71,000 square kilometers in Arizona, New
+        Mexico, and Utah. Therefore, beginning in 2011 the Community Environmental Health Program at
+        the University of New Mexico began to compile existing water quality datasets, principally
+        for unregulated groundwater sources, in a single geospatial relational database. 
+      Researchers at the University of New Mexico Center for Native Environmental Health
+        Equity Research, University of New Mexico METALS Superfund Research Program, University of
+        Arizona, Northern Arizona University, and the Southwest Research and Information Center have
+        compiled a database of water quality measurements from groundwater wells on the Navajo
+        Nation using data from the U.S. Geological Survey, U.S. Army Corps of Engineers, U.S.
+        Centers for Disease Control and Prevention, Navajo Nation Environmental Protection Agency,
+        and data from researchers at the University of New Mexico, Dine College and Northern Arizona
+        University. To date, this data compilation has been used for publications but has not been
+        disseminated publicly. The purpose of this website is to facilitate access to these compiled
+        water quality data. The application design enables users to view water quality information
+        using statistical and geospatial tools. Our hope is that this information will support
+        individual and community decisions about water use from unregulated sources.
+      
+    
+    
+      water quality
+      groundwater
+      LTER Controlled Vocabulary
+    
+    
+      unregulated wells
+      metals
+      Navajo Nation
+      Tribal lands
+    
+    
+      Articles derived from this dataset: 
+      Jones, L., Credo, J., Parnell, R., & Ingram, J. C. (2020). Dissolved Uranium and
+        Arsenic in Unregulated Groundwater Sources – Western Navajo Nation. Journal of Contemporary
+        Water Research & Education, 169(1), 27–43.
+        https://doi.org/10.1111/j.1936-704X.2020.03330.x
+      Ingram, J. C., Jones, L., Credo, J., & Rock, T. (2020). Uranium and arsenic
+        unregulated water issues on Navajo lands. Journal of Vacuum Science & Technology A,
+        38(3), 031003. https://doi.org/10.1116/1.5142283
+      Erdei, E., Shuey, C., Pacheco, B., Cajero, M., Lewis, J., & Rubin, R.L. (2019)
+        Elevated autoimmunity in residents living near abandoned uranium mine sites on the Navajo
+        Nation. Journal of Autoimmunity, 99, 15-23.
+        https://doi.org/10.1016/j.jaut.2019.01.006
+      Hoover, J., Coker, E., Barney, Y., Shuey, C., & Lewis, J. (2018). Spatial clustering
+        of metal and metalloid mixtures in unregulated water sources on the Navajo Nation – Arizona,
+        New Mexico, and Utah, USA. Science of The Total Environment, 633, 1667–1678.
+        https://doi.org/10.1016/j.scitotenv.2018.02.288 
+      Hoover, J., Gonzales, M., Shuey, C., Barney, Y., & Lewis, J. (2017). Elevated
+        Arsenic and Uranium Concentrations in Unregulated Water Sources on the Navajo Nation, USA.
+        Exposure and Health, 9(2), 113–124. https://doi.org/10.1007/s12403-016-0226-6 2:17
+        https://doi.org/10.1116/1.5142283
+      Harmon, M. E., Lewis, J., Miller, C., Hoover, J., Ali, A.-M. S., Shuey, C., Cajero, M.,
+        Lucas, S., Zychowski, K., Pacheco, B., Erdei, E., Ramone, S., Nez, T., Gonzales, M., &
+        Campen, M. J. (2017). Residential proximity to abandoned uranium mines and serum
+        inflammatory potential in chronically exposed Navajo communities. Journal of Exposure
+        Science & Environmental Epidemiology, 27(4), 365–371. https://doi.org/10.1038/jes.2016.79 
+      Hoover, J., Gonzales, M., Shuey, C., Barney, Y., & Lewis, J. (2017). Elevated
+        Arsenic and Uranium Concentrations in Unregulated Water Sources on the Navajo Nation, USA.
+        Exposure and Health, 9(2), 113–124. https://doi.org/10.1007/s12403-016-0226-6
+    
+    
+      This data package is released to the “public domain” under Creative Commons CC0 1.0 “No
+        Rights Reserved” (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+        professional etiquette to provide attribution of the original work if this data package is
+        shared in whole or by individual components. A generic citation is provided for this data
+        package on the website https://portal.edirepository.org (herein “website”) in the summary
+        metadata page. Communication (and collaboration) with the creators of this data package is
+        recommended to prevent duplicate research or publication. This data package (and its
+        components) is made available “as is” and with no warranty of accuracy or fitness for use.
+        The creators of this data package and the website shall not be liable for any damages
+        resulting from misinterpretation or misuse of the data package or its components. Periodic
+        updates of this data package may be available from the website. Thank you.
+    
+    https://doi.org/10.6073/pasta/061a105b3ebb79d9e4d53192f070b97f
+      
+        Navajo Nation, USA
+        
+          -112.25
+          -107.5
+          37.35
+          34.96
+        
+      
+      
+        
+          
+            1905-05-27
+          
+          
+            2020-06-04
+          
+        
+      
+    
+    
+      completed
+    
+    
+      Daniel Beene
+      University of New Mexico Community Environmental Health
+        Program
+      DaRBeene@salud.unm.edu
+    
+    Environmental Data Initiativeinfo@environmentaldatainitiative.orghttps://environmentaldatainitiative.org0330j0z60Environmental Data Initiative
+      
+        
+          The compiled dataset consists of two primary data tables. The first table is derived
+            from the Navajo Nation Wells Database, consisting of more than 5,000 groundwater well
+            records. The second table includes water quality data from 18 distinct studies collected
+            between 1905 and 2020. The data table includes 845 analytes with the largest number of
+            observations for trace metals, metalloids, radionuclides, and water chemistry
+            parameters. The data presented here represent the publicly available portion of the data
+            compilation. This tool should not be interpreted as a definitive or complete record of
+            all wells and water quality results in the region. In total, the dataset presented here
+            visualized results for 1,101 water sources. 
+          Some studies recorded uranium concentrations in units of activity (picocuries per
+            liter), which were converted to mass per unit volume (ug/L) by dividing activity by
+            0.67. If multiple measurements were available per analyte per well, the maximum
+            concentration was determined for radionuclides, metals, and metalloids, and the median
+            concentration was calculated for pH, conductivity, hardness, and other measures of water
+            chemistry. Measurements that are below the instrument limit of detection are recorded in
+            the dataset. Values are imputed as the LOD for visualization purposes. The downloadable
+            dataset records the LOD and may be used with various imputation methods for more
+            rigorous statistical analysis.
+        
+      
+    
+    
+      wells.csv
+      wells
+      
+        wells.csv
+        686999
+        5233844413465c9e55b48872ce2d82b8
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/517/2/199096fb60bb8c904ba7c832894ea715
+          
+        
+      
+      
+        
+          well_id
+          Unique ID for each well feature. Can be inner-joined with 'well_id' field in analytes.csv.
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                natural
+                
+                  2
+                  8236
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          well_no
+          Well number maintained by Navajo Nation Department of Water Resources (NNDWR)
+          string
+          
+            
+              
+                
+                  Well number maintained by Navajo Nation Department of Water Resources (NNDWR)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          well_name
+          Well name maintained by Navajo Nation Department of Water Resources (NNDWR)
+          string
+          
+            
+              
+                
+                  Well name maintained by Navajo Nation Department of Water Resources (NNDWR)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          aka2
+          Colloquial name used by community members
+          string
+          
+            
+              
+                
+                  Colloquial name used by community members
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          aka3
+          Colloquial name used by community members
+          string
+          
+            
+              
+                
+                  Colloquial name used by community members
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          owner
+          Owner or operator of well
+          string
+          
+            
+              
+                
+                  Owner or operator of well
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          sdwa_type
+          Type of water system under Safe Drinking Water Act Ammendments of 1996
+          string
+          
+            
+              
+                
+                  
+                    UWS
+                    unregulated water system
+                  
+                  
+                    REG
+                    regulated
+                  
+                  
+                    UNK
+                    unknown
+                  
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          usgs_id
+          US Geologic Survey ID for wells stored in National Water Information System (NWIS)
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                integer
+                
+                  -1e+05
+                  3.73e+14
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          pwsid
+          Public water system ID - used if well head is entry point to regulated water distribution system
+          string
+          
+            
+              
+                
+                  Public water system ID - used if well head is entry point to regulated water distribution system
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          depth
+          Depth of well in feet
+          float
+          
+            
+              
+                foot
+              
+              
+                real
+                
+                  5
+                  9803
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          code
+          Alphanumeric code of geologic formation from National Geologic Map Database (Geolex)
+          string
+          
+            
+              
+                
+                  Alphanumeric code of geologic formation from National Geologic Map Database (Geolex)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          description
+          Long-form description of geologic formation from National Geologic Map Database (Geolex)
+          string
+          
+            
+              
+                
+                  Long-form description of geologic formation from National Geologic Map Database (Geolex)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          Longitude
+          Longitude in decimal degrees (DD) in WGS1984 (SRID: 4328)
+          float
+          
+            
+              
+                decimalDegrees
+              
+              
+                real
+                
+                  -111.7776718
+                  -106.8733917
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          Latitude
+          Latitude in decimal degrees (DD) in WGS1984 (SRID: 4328)
+          float
+          
+            
+              
+                decimalDegrees
+              
+              
+                real
+                
+                  34.09021613
+                  37.45399768
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+      
+      5599
+    
+    
+      analytes.csv
+      analytes
+      
+        analytes.csv
+        12578186
+        de6a8e39bac2083aa0d83d05ff05eef6
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/517/2/6a9f3e295051be0b8a410510a872e577
+          
+        
+      
+      
+        
+          uid
+          Unique ID for each well feature
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                natural
+                
+                  236
+                  130360
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          well_id
+          Foreign key with wells table column well_no.
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                natural
+                
+                  4
+                  8389
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          sample_id
+          ID for each water sample. Multiple analytes can have same sample ID
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                natural
+                
+                  1
+                  6320
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          analyte
+          Analyte tested - may be abbreviated using common parlance
+          string
+          
+            
+              
+                
+                  Analyte tested - may be abbreviated using common parlance
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          date_collected
+          Date that sample was collected
+          date
+          
+            
+              DD-MM-YYYY
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          sampling_entity
+          Research entity who collected and reported the sample
+          string
+          
+            
+              
+                
+                  Research entity who collected and reported the sample
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          result
+          Analytical laboratory result
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  -524
+                  832974.9421
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          lessthan_limit_of_detection
+          Binary field denoting if analyte was below limit of detection of laboratory instrumentation
+          string
+          
+            
+              
+                
+                  
+                    0
+                    Above limit of detection
+                  
+                  
+                    1
+                    Below limit of detection
+                  
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          unit
+          Denotes units of analytical results
+          string
+          
+            
+              
+                
+                  Denotes units of analytical results
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          analysis_date
+          Date that sample was analyzed
+          date
+          
+            
+              DD-MM-YYYY
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          filtered_sample
+          Binary field denoting if analyte was filtered through 0.2um filter
+          string
+          
+            
+              
+                
+                  
+                    0
+                    Not Filtered with 0.2 um filter
+                  
+                  
+                    1
+                    Filtered with 0.2 um filter
+                  
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          analysis_method
+          USGS NWIS method codes (https://help.waterdata.usgs.gov/method_cd)
+          string
+          
+            
+              
+                
+                  USGS NWIS method codes (https://help.waterdata.usgs.gov/method_cd)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          analysis_method_description
+          USGS NWIS method description (https://help.waterdata.usgs.gov/method_cd)
+          string
+          
+            
+              
+                
+                  USGS NWIS method description (https://help.waterdata.usgs.gov/method_cd)
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          analysis_lab
+          Laboratory
+          string
+          
+            
+              
+                
+                  Laboratory
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          notes
+          Notes
+          string
+          
+            
+              
+                
+                  Notes
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+        
+          information_source
+          Source from which data were collected and compiled
+          string
+          
+            
+              
+                
+                  Source from which data were collected and compiled
+                
+              
+            
+          
+          
+            -99999
+            Missing value
+          
+        
+      
+      64209
+    
+  
+  
+    
+      
+        
+          latitude or longitude in geographic coordinates as decimal fractions of a
+            degree
+        
+      
+    
+  

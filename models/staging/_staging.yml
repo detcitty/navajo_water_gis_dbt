@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_watergis__wells
+    description: One row per monitoring well with cleaned location and construction metadata.
+    columns:
+      - name: well_id
+        tests: [unique, not_null]
+      - name: latitude
+        tests: [not_null]
+      - name: longitude
+        tests: [not_null]
+
+  - name: stg_watergis__water_levels
+    description: Cleaned time series of depth-to-water readings.
+    columns:
+      - name: well_id
+        tests: [not_null]
+      - name: depth_to_water_ft
+        tests:
+          - not_null
+
+  - name: stg_watergis__water_quality
+    description: Cleaned water quality lab sample results per well/date/analyte.
+    columns:
+      - name: well_id
+        tests: [not_null]
