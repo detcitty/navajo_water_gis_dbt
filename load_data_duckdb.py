@@ -3,7 +3,7 @@ import glob
 import duckdb
 
 # 1. Configuration
-DB_FILE = "navajo_wells.db"
+DB_FILE = "./navajo_water_wells/data/navajo_water_wells.duckdb"
 SOURCE_FOLDER = "./navajo_water_wells/raw_data"  # Directory where your CSVs live
 
 def load_multiple_csvs():

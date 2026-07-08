@@ -3,9 +3,9 @@
 
 with source as (
 
-    select * from {{ source('watergis', 'water_quality_raw') }}
+    select * from {{ source('analytes', 'wells') }}
 
-),
+),,
 
 renamed as (
 

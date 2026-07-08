@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "navajo_water_wells"."main"."chapter_boundaries";
+    -- dbt seed --
+    
+          COPY "navajo_water_wells"."main"."chapter_boundaries" FROM '/Users/deeetcitty/Documents/Code/navajo_water_gis_dbt/navajo_water_wells/seeds/chapter_boundaries.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

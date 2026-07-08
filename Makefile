@@ -10,7 +10,6 @@ setup-duckdb-data:
 	python3 load_data_duckdb.py
 
 run-dbt:
-	export DBT_DUCKDB_PG_PWD=mysecretpassword && \
 	source venv_dbt_navajowells/bin/activate && \
 	cd navajo_water_wells && \
 	dbt deps && \
@@ -18,4 +17,4 @@ run-dbt:
 
 clean-up:
 	rm -rf venv_dbt_navajowells
-	rm -rf navajo_wells.db
+	rm -rf ./data/navajo_water_wells.duckdb

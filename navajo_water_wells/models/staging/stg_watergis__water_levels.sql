@@ -3,7 +3,7 @@
 
 with source as (
 
-    select * from {{ source('watergis', 'water_levels_raw') }}
+    select * from {{ source('analytes', 'wells') }}
 
 ),
 

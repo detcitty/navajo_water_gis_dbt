@@ -1,29 +1,10 @@
 version: 2
 
 sources:
-  - name: watergis
-    description: >
-      Raw groundwater monitoring data sourced from Navajo Nation
-      WaterGIS public well and water-quality datasets.
-    schema: raw
+  - name: water_gis
+    database: navajo_water_wells
+    schema: main
     tables:
-      - name: wells_raw
-        description: One row per monitoring well, with location and construction metadata.
-        columns:
-          - name: well_id
-            description: Unique well identifier.
-            tests: [unique, not_null]
-
-      - name: water_levels_raw
-        description: Time series of depth-to-water readings per well.
-        columns:
-          - name: well_id
-            tests: [not_null]
-          - name: reading_date
-            tests: [not_null]
-
-      - name: water_quality_raw
-        description: Periodic water quality lab samples per well (TDS, arsenic, uranium, etc.).
-        columns:
-          - name: well_id
-            tests: [not_null]
+      - name: analytes
+      - name: chapter_boundaries
+      - name: wells

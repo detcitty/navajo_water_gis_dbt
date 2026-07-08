@@ -1,12 +1,8 @@
 navajo_water_wells:
-
+  target: dev
   outputs:
     dev:
       type: duckdb
-      path: raw_data/navajo_water_wells.duckdb
-      extensions:
-        - spatial
-        - httpfs
-        - postgres
+      path: 'data/navajo_water_wells.duckdb'
+      schema: main
       threads: 1
-  target: dev
